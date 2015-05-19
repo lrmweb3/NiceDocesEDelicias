@@ -15,7 +15,7 @@ function init_site() {
 
     //CSS e JS Global
     set_tema('CSSglobal', load_css(array('bootstrap', 'bootstrap-responsive', 'style')), FALSE);
-    set_tema('JSglobal', load_js(array('jquery', 'bootstrap.min', 'funcoes')), FALSE);
+    set_tema('JSglobal', load_js(array('jquery', 'bootstrap.min', 'holder', 'funcoes')), FALSE);
 
     set_tema('titulo_padrao', 'Nice Doces e Delícias');
     set_tema('template', 'inicio_view');
