@@ -16,60 +16,57 @@
 
 /*---- Pesquisa ----*/
 
-#resultado_pesquisa {
-    
-    width: 300px;
-    height: 400px;
-    margin-right: 30px;
-    margin-left: 50px;
-    margin-top: 20px;
-    float: left;
-    text-align: justify;
+/*-------------- Barra gradiente superior ----------------*/
+.gradiente_pesquisa {
+    width: 100%;        
+    background: linear-gradient(#DCC396 , transparent);
+}
+.gradiente_pesquisa font {
+    font-style: oblique;
+    font-size: 1.3em;
+    color: black;
+    padding: 15px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;  
 }
 
-#titulo_pesquisa {
+.gradiente_pesquisa strong {
+    font-style: oblique;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 2px #000;
+}
+
+//Grupo com todos os resultados da pesquisa
+.pesquisar{
     text-align: center;
 }
 
-#btn_pesquisa {
-    
-    margin-top: 2px;
-}
-/*-------------- Barra gradiente superior ----------------*/
-#gradiente_pesquisa {
-    width: 100%;
-    height: 60px;
-    background: linear-gradient(#DCC396 , transparent);
+.result-group{
+    text-align: center;
+    display: block;
 }
 
-#texto_resultado {
-    float: left;
-    margin-top: 15px;
-    margin-left: 15px;
-    width: 100%;
-    height: 10px;
+.resultado_pesquisa {
+    max-width: 270px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.resultado_pesquisa h5{
+    margin-bottom: 0;
+}
+.resultado_pesquisa span{
+    font-size: 0.9em;
 }
 
-#fonte1 {
-    
-    font-style: oblique;
-    font-size: 20px;
-    color: black;
-    
-}
+#paginacao{
 
-#fonte2 {
-    
-        font-style: oblique;
-        font-size: 20px;
-        color: white;
-}
-
-#paginacao {
-    
     float: bottom;
     margin-top: 20px;
 }
+
 
 
 
