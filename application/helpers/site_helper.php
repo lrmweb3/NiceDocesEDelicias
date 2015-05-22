@@ -14,8 +14,8 @@ function init_site() {
     $CI->load->library(array('sistema'));
 
     //CSS e JS Global
-    set_tema('CSSglobal', load_css(array('bootstrap', 'bootstrap-responsive', 'style')), FALSE);
-    set_tema('JSglobal', load_js(array('jquery', 'bootstrap.min', 'holder', 'funcoes')), FALSE);
+    set_tema('CSSglobal', load_css(array('bootstrap', 'bootstrap-responsive', 'style', 'elastislide', 'custom', 'demo')), FALSE);
+    set_tema('JSglobal', load_js(array('jquery', 'bootstrap.min', 'holder', 'funcoes', 'jquery.elastislide', 'jquerypp.custom', 'modernizr.custom.17475')), FALSE);
 
     set_tema('titulo_padrao', 'Nice Doces e Delícias');
     set_tema('template', 'inicio_view');
