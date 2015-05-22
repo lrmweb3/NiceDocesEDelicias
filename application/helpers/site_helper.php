@@ -14,8 +14,13 @@ function init_site() {
     $CI->load->library(array('sistema'));
 
     //CSS e JS Global
-    set_tema('CSSglobal', load_css(array('bootstrap', 'bootstrap-responsive', 'style', 'elastislide', 'custom', 'demo')), FALSE);
-    set_tema('JSglobal', load_js(array('jquery', 'bootstrap.min', 'holder', 'funcoes', 'jquery.elastislide', 'jquerypp.custom', 'modernizr.custom.17475')), FALSE);
+    set_tema('CSSglobal', load_css(array('bootstrap', 'bootstrap-responsive', 'elastislide', 'custom', 'demo')), FALSE);
+    set_tema('CSSglobal', load_css(array('headerSlideShow')), FALSE);
+    set_tema('CSSglobal', load_css(array('style')), FALSE); //Este arquivo tem que ficar sozinho e nesta posição
+    //set_tema('JSglobal', load_js(array('jquery')), FALSE); //Este arquivo tem que ficar sozinho e nesta posição
+    set_tema('JSglobal', load_js(array('bootstrap.min', 'holder', 'funcoes', 'header', 'jquery.elastislide', 'jquerypp.custom', 'modernizr.custom.17475')), FALSE);
+    set_tema('JSglobal', load_js(array('headerSlideShow-imagesLoader', 'header.sideShow')), FALSE); //Slide Show header
+
 
     set_tema('titulo_padrao', 'Nice Doces e Delícias');
     set_tema('template', 'inicio_view');

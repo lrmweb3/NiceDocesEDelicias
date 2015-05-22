@@ -1,0 +1,18 @@
+/* jquerydemo.com */
+
+#photos { 
+    position: relative; 
+    width: 280px; 
+    height: 165px; 
+    padding: 10px; 
+    border: solid 1px #D2D2D2;
+    -webkit-box-shadow: 0 6px 6px -6px grey;
+    -moz-box-shadow: 0 6px 6px -6px grey;
+    box-shadow: 0 6px 6px -6px grey;
+}
+
+#photos img { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+} 
