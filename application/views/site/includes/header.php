@@ -15,14 +15,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </a>
+                    
                     <!-- Tudo que você queira escondido em 940px ou menos, coloque aqui -->
                     <div class="nav-collapse">
                         <ul class="nav nav-pills">
-                            <li class="active">
-                                <a href="#">Início</a>
-                            </li>
-                            <li><a href="#">...</a></li>
-                            <li><a href="#">...</a></li>
+                            <li class="btn btn-warning btn-header"><a href="#">Lançametnos</a></li>
+                            <li class="btn btn-warning btn-header"><a href="#">Doces</a></li>
+                            <li class="btn btn-warning btn-header"><a href="#">Salgados</a></li>
+                            <li class="btn btn-warning btn-header"><a href="#">Serviços</a></li>
+                            <li class="btn btn-warning btn-header"><a href="#">Eventos</a></li>
+                            <li class="btn btn-warning btn-header"><a href="#">Contato</a></li>
                         </ul>
                     </div>
 
