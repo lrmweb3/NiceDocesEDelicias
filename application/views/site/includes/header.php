@@ -1,21 +1,33 @@
-<div class="container well header">
-    <div class="container">
-        no inicio
-        <div class="main">
-            <ul id="cbp-bislideshow" class="cbp-bislideshow">
-                <li><img src="<?php echo base_url("img/headerSlideShow/")?>/1.jpg" alt="image01"/></li>
-                <li><img src="<?php echo base_url("img/headerSlideShow/")?>/2.jpg" alt="image02"/></li>
-                <li><img src="<?php echo base_url("img/headerSlideShow/")?>/3.jpg" alt="image03"/></li>
-                <li><img src="<?php echo base_url("img/headerSlideShow/")?>/4.jpg" alt="image04"/></li>
-                <li><img src="<?php echo base_url("img/headerSlideShow/")?>/5.jpg" alt="image05"/></li>
-                <li><img src="<?php echo base_url("img/headerSlideShow/")?>/6.jpg" alt="image06"/></li>
-            </ul>
+<div class="header">
+    <div class="row-fluid">
+        <div class="container logo">
+            <img src="<?php echo base_url('img/logo/logo.png') ?>" title="Logomarca Site Nice doces e Delícias" alt="Logomarca Site Nice doces e Delícias" />
         </div>
-        no fim
     </div>
-    <script>
-        $(function () {
-            cbpBGSlideshow.init();
-        });
-    </script>
+    <div class="row-fluid menu">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+
+                    <!-- .btn-navbar é usado como alternador para conteúdo de barra de navegação colapsável -->
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <!-- Tudo que você queira escondido em 940px ou menos, coloque aqui -->
+                    <div class="nav-collapse">
+                        <ul class="nav nav-pills">
+                            <li class="active">
+                                <a href="#">Início</a>
+                            </li>
+                            <li><a href="#">...</a></li>
+                            <li><a href="#">...</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

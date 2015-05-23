@@ -14,18 +14,56 @@
 /**************************************
 **************    HADER  *************/
 
+.header{
+    background: url("../img/headerSlideShow/2.jpg")no-repeat center top;
+    min-height: 300px;
+    display: block;
+    text-align: center;
+}
+.header .logo{
+    margin-bottom: 6em;
+}
+.header .menu .navbar{
+    max-width: 1117px;
+    margin: 0 auto;
+}
+.header .menu .navbar{
+    margin-bottom: 0;
+    text-align: center;
+    display: block;
+}
+.header .menu .navbar .navbar-inner{
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+
+
 /*---- Pesquisa ----*/
 
 /*-------------- Barra gradiente superior ----------------*/
+.barraDePesquisa{
+    padding: 5px;
+    background-color: #E2C49D;
+    text-align: center;
+}
+.barraDePesquisa .form-search{
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+
 .gradiente_pesquisa {
     width: 100%;        
-    background: linear-gradient(#DCC396 , transparent);
+    background: linear-gradient(#C8A25B , transparent) !important;
+    text-align: center;
+    padding: 3px;
 }
-.gradiente_pesquisa font {
+.gradiente_pesquisa span {
     font-style: oblique;
-    font-size: 1.3em;
+    font-size: 1.0em;
     color: black;
-    padding: 15px;
+    padding: 5px;
     display: block;
     margin-bottom: 10px;
     font-weight: bold;  
