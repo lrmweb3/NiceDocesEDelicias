@@ -10,7 +10,13 @@
 */
 
 
-/*---- Pesquisa ----*/
+
+/**************************************
+**************    HADER  *************/
+.paginas{
+    background: url("../img/fundoPaginas.jpg");
+}
+
 
 /*-------------- Barra gradiente superior ----------------*/
 .barraDePesquisa{
@@ -70,11 +76,33 @@
 }
 
 #paginacao{
-
     float: bottom;
     margin-top: 20px;
 }
 
+/**************************************
+**************  CONTATO  *************/
 
+.contato{
 
-
+}
+.contato span{
+    background: #fff;
+    
+}
+.contato h5{
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 1.5em;;
+}
+.contato .form-actions{
+    text-align: right;
+}
+.contato form label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.contato .endereco{
+    margin-top: 3em;
+    font-size: 1.2em;
+}

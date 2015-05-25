@@ -29,11 +29,12 @@
     </head>
     <body>
 
+        <div class="paginas">
+            {header} 
 
-        {header} 
-        {paginas} 
-        {footer}
-
+            {paginas} 
+            {footer}
+        </div>
         {JSglobal}
         {JSpagina}
     </body>

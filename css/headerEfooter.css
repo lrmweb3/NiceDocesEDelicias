@@ -3,7 +3,7 @@
 **************    HADER  *************/
 
 .header{
-    background: url("../img/headerSlideShow/2.jpg")no-repeat center top;
+    background: url("../img/headerSlideShow/2.jpg")no-repeat #fff center top ;
     min-height: 300px;
     display: block;
     text-align: center;
