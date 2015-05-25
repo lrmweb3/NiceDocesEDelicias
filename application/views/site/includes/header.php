@@ -24,7 +24,7 @@
                             <li class="btn btn-warning btn-header"><a href="#">Salgados</a></li>
                             <li class="btn btn-warning btn-header"><a href="#">Serviços</a></li>
                             <li class="btn btn-warning btn-header"><a href="#">Eventos</a></li>
-                            <li class="btn btn-warning btn-header"><a href="#">Contato</a></li>
+                            <li class="btn btn-warning btn-header"><a href="<?php echo base_url("contato") ?>">Contato</a></li>
                         </ul>
                     </div>
 
