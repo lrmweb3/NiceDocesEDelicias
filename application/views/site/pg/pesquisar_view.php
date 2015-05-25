@@ -1,11 +1,13 @@
-
-<div class="gradiente_pesquisa img-rounded">
-    <div class="texto_resultado">
-        <font>Foram encontrados <strong>90</strong> resultados</font>
-    </div>
+<div class="barraDePesquisa">
+    <form class="form-search">
+        <input type="text" class="span4 input-large search-query" placeholder="Digite sua busca e pressione enter." autofocus="" required="">
+        <button type="submit" class="btn btn-info">Busca</button>
+    </form>
+</div>
+<div class="gradiente_pesquisa">
+    <span>Foram encontrados <strong>90</strong> resultados</span>
 </div>
 <div class="container pesquisar">
-
     <div class="result-group">
         <div class="resultado_pesquisa" >
             <img class="img img-polaroid img-rounded" data-src="holder.js/225x135/auto"/>
@@ -115,7 +117,7 @@
                 <input type="button" class="btn btn-success btn-mini" value="Indicar para um amigo >>" />
             </div>
         </div>
-        
+
     </div>
 
 

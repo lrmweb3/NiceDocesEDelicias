@@ -28,11 +28,11 @@
         <title><?php if (isset($titulo)) { ?> {titulo} | <?php } ?> {titulo_padrao} </title>
     </head>
     <body>
-        <div class="container">
+     
          {header} 
          {paginas} 
          {footer}
-        </div>
+   
         {JSglobal}
         {JSpagina}
     </body>
