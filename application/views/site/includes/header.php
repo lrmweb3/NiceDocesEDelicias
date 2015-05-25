@@ -19,11 +19,11 @@
                     <!-- Tudo que você queira escondido em 940px ou menos, coloque aqui -->
                     <div class="nav-collapse">
                         <ul class="nav nav-pills">
-                            <li class="btn btn-warning btn-header"><a href="#">Lançametnos</a></li>
-                            <li class="btn btn-warning btn-header"><a href="#">Doces</a></li>
-                            <li class="btn btn-warning btn-header"><a href="#">Salgados</a></li>
-                            <li class="btn btn-warning btn-header"><a href="#">Serviços</a></li>
-                            <li class="btn btn-warning btn-header"><a href="#">Eventos</a></li>
+                            <li class="btn btn-warning btn-header"><a href="<?php echo base_url("lancamentos") ?>">Lançametnos</a></li>
+                            <li class="btn btn-warning btn-header"><a href="<?php echo base_url("doces") ?>">Doces</a></li>
+                            <li class="btn btn-warning btn-header"><a href="<?php echo base_url("salgados") ?>">Salgados</a></li>
+                            <li class="btn btn-warning btn-header"><a href="<?php echo base_url("servicos") ?>">Serviços</a></li>
+                            <li class="btn btn-warning btn-header"><a href="<?php echo base_url("eventos") ?>">Eventos</a></li>
                             <li class="btn btn-warning btn-header"><a href="<?php echo base_url("contato") ?>">Contato</a></li>
                         </ul>
                     </div>
