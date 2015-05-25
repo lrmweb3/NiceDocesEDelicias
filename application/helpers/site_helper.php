@@ -17,8 +17,8 @@ function init_site() {
     //CSS Boostrap
     set_tema('CSSglobal', load_css(array('bootstrap', 'bootstrap-responsive')), FALSE);
     
-    //set_tema('CSSglobal', load_css(array('elastislide',  'custom', 'demo')), FALSE);// Plugin: Carrocel de imagens
-    set_tema('CSSglobal', load_css(array('style')), FALSE); //Este arquivo tem que ficar sozinho e nesta posição
+    //set_tema('CSSglobal', load_css(array('elastislide',  'custom', 'demo')), FALSE);// Plugin: Carrocel de imagens página Produtos Itens
+    set_tema('CSSglobal', load_css(array('headerEfooter','style')), FALSE); //Este arquivo tem que ficar sozinho e nesta posição
     
     set_tema('JSglobal', load_js(array('jquery')), FALSE); //Este arquivo tem que ficar sozinho e nesta posição
     set_tema('JSglobal', load_js(array('bootstrap.min', 'holder', 'funcoes', 'header', 'jquery.elastislide', 'jquerypp.custom', 'modernizr.custom.17475')), FALSE);
