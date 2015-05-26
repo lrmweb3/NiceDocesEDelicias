@@ -80,6 +80,27 @@
     margin-top: 20px;
 }
 
+
+/**************************************
+**************  LANÇAMENTOS  *************/
+
+.lancamentos{
+    
+}
+.resultado_lancamento {
+    max-width: 370px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.resultado_lancamento h5{
+    margin-bottom: 0;
+}
+.resultado_lancamento span{
+    font-size: 0.9em;
+}
+
+
 /**************************************
 **************  CONTATO  *************/
 
@@ -88,7 +109,7 @@
 }
 .contato span{
     background: #fff;
-    
+
 }
 .contato h5{
     font-size: 1.5em;
