@@ -1,0 +1,108 @@
+/*
+ Document   : style
+ Created on : 01/07/2012, 18:40:48
+ Author     : REGI-MÓVEL
+ Description: Purpose of the stylesheet follows.
+
+ Access the site: www.lgtinfo.com.br
+ TODO customize this sample style
+ Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+
+/**************************************
+**************    HADER  *************/
+.paginas{
+    background: url("../img/fundoPaginas.jpg");
+}
+
+
+/*-------------- Barra gradiente superior ----------------*/
+.barraDePesquisa{
+    padding: 5px;
+    background-color: #E2C49D;
+    text-align: center;
+}
+.barraDePesquisa .form-search{
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+
+.gradiente_pesquisa {
+    width: 100%;        
+    background: linear-gradient(#C8A25B , transparent) !important;
+    text-align: center;
+    padding: 3px;
+}
+.gradiente_pesquisa span {
+    font-style: oblique;
+    font-size: 1.0em;
+    color: black;
+    padding: 5px;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;  
+}
+
+.gradiente_pesquisa strong {
+    font-style: oblique;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 2px #000;
+}
+
+//Grupo com todos os resultados da pesquisa
+.pesquisar{
+    text-align: center;
+}
+
+.result-group{
+    text-align: center;
+    display: block;
+}
+
+.resultado_pesquisa {
+    max-width: 270px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.resultado_pesquisa h5{
+    margin-bottom: 0;
+}
+.resultado_pesquisa span{
+    font-size: 0.9em;
+}
+
+#paginacao{
+    float: bottom;
+    margin-top: 20px;
+}
+
+/**************************************
+**************  CONTATO  *************/
+
+.contato{
+
+}
+.contato span{
+    background: #fff;
+    
+}
+.contato h5{
+    font-size: 1.5em;
+    font-weight: normal;
+    line-height: 1.5em;;
+}
+.contato .form-actions{
+    text-align: right;
+}
+.contato form label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.contato .endereco{
+    margin-top: 3em;
+    font-size: 1.2em;
+}
