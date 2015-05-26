@@ -7,7 +7,7 @@
         <h5 id="titulo_pesquisa">Titulo da Imagem</h5>
         <span>Conteudo referente a imagem mostrada acima. Especificações do produto em questão.</span>    
         <div>
-            <input type="button" class="btn btn-warning btn-mini"  value="Ver detalhe [+]"/>
+            <a href="<?php echo base_url('lancamentos/item') ?>" class="btn btn-warning btn-mini">Ver detalhe [+]</a>
             <input type="button" class="btn btn-success btn-mini" value="Indicar para um amigo >>" />
         </div>
     </div>
@@ -16,7 +16,7 @@
         <h5 id="titulo_pesquisa">Titulo da Imagem</h5>
         <span>Conteudo referente a imagem mostrada acima. Especificações do produto em questão.</span>    
         <div>
-            <input type="button" class="btn btn-warning btn-mini"  value="Ver detalhe [+]"/>
+            <a href="<?php echo base_url('lancamentos/item') ?>" class="btn btn-warning btn-mini">Ver detalhe [+]</a>
             <input type="button" class="btn btn-success btn-mini" value="Indicar para um amigo >>" />
         </div>
     </div>
@@ -25,65 +25,10 @@
         <h5 id="titulo_pesquisa">Titulo da Imagem</h5>
         <span>Conteudo referente a imagem mostrada acima. Especificações do produto em questão.</span>    
         <div>
-            <input type="button" class="btn btn-warning btn-mini"  value="Ver detalhe [+]"/>
+            <a href="<?php echo base_url('lancamentos/item') ?>" class="btn btn-warning btn-mini">Ver detalhe [+]</a>
             <input type="button" class="btn btn-success btn-mini" value="Indicar para um amigo >>" />
         </div>
     </div>
-    <div class="resultado_lancamento" >
-        <a href="<?php echo base_url('lancamentos/item') ?>"><img class="img img-polaroid img-rounded" data-src="holder.js/360x216/auto"/></a>
-        <h5 id="titulo_pesquisa">Titulo da Imagem</h5>
-        <span>Conteudo referente a imagem mostrada acima. Especificações do produto em questão.</span>    
-        <div>
-            <input type="button" class="btn btn-warning btn-mini"  value="Ver detalhe [+]"/>
-            <input type="button" class="btn btn-success btn-mini" value="Indicar para um amigo >>" />
-        </div>
-    </div>
-    <div class="resultado_lancamento" >
-        <a href="<?php echo base_url('lancamentos/item') ?>"><img class="img img-polaroid img-rounded" data-src="holder.js/360x216/auto"/></a>
-        <h5 id="titulo_pesquisa">Titulo da Imagem</h5>
-        <span>Conteudo referente a imagem mostrada acima. Especificações do produto em questão.</span>    
-        <div>
-            <input type="button" class="btn btn-warning btn-mini"  value="Ver detalhe [+]"/>
-            <input type="button" class="btn btn-success btn-mini" value="Indicar para um amigo >>" />
-        </div>
-    </div>
-    <div class="resultado_lancamento" >
-        <a href="<?php echo base_url('lancamentos/item') ?>"><img class="img img-polaroid img-rounded" data-src="holder.js/360x216/auto"/></a>
-        <h5 id="titulo_pesquisa">Titulo da Imagem</h5>
-        <span>Conteudo referente a imagem mostrada acima. Especificações do produto em questão.</span>    
-        <div>
-            <input type="button" class="btn btn-warning btn-mini"  value="Ver detalhe [+]"/>
-            <input type="button" class="btn btn-success btn-mini" value="Indicar para um amigo >>" />
-        </div>
-    </div>
-    <div class="resultado_lancamento" >
-        <a href="<?php echo base_url('lancamentos/item') ?>"><img class="img img-polaroid img-rounded" data-src="holder.js/360x216/auto"/></a>
-        <h5 id="titulo_pesquisa">Titulo da Imagem</h5>
-        <span>Conteudo referente a imagem mostrada acima. Especificações do produto em questão.</span>    
-        <div>
-            <input type="button" class="btn btn-warning btn-mini"  value="Ver detalhe [+]"/>
-            <input type="button" class="btn btn-success btn-mini" value="Indicar para um amigo >>" />
-        </div>
-    </div>
-    <div class="resultado_lancamento" >
-        <a href="<?php echo base_url('lancamentos/item') ?>"><img class="img img-polaroid img-rounded" data-src="holder.js/360x216/auto"/></a>
-        <h5 id="titulo_pesquisa">Titulo da Imagem</h5>
-        <span>Conteudo referente a imagem mostrada acima. Especificações do produto em questão.</span>    
-        <div>
-            <input type="button" class="btn btn-warning btn-mini"  value="Ver detalhe [+]"/>
-            <input type="button" class="btn btn-success btn-mini" value="Indicar para um amigo >>" />
-        </div>
-    </div>
-    <div class="resultado_lancamento" >
-        <a href="<?php echo base_url('lancamentos/item') ?>"><img class="img img-polaroid img-rounded" data-src="holder.js/360x216/auto"/></a>
-        <h5 id="titulo_pesquisa">Titulo da Imagem</h5>
-        <span>Conteudo referente a imagem mostrada acima. Especificações do produto em questão.</span>    
-        <div>
-            <input type="button" class="btn btn-warning btn-mini"  value="Ver detalhe [+]"/>
-            <input type="button" class="btn btn-success btn-mini" value="Indicar para um amigo >>" />
-        </div>
-    </div>
-</div>
 </div>
 
 <div class="pagination" id="paginacao" align="center">

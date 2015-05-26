@@ -1,5 +1,5 @@
 
-<div class="container-fluid" id="lancamentoItem">
+<div class="container-fluid docesItem">
     <div class="row-fluid">
         <div class="span3">
             <ul class="nav nav-tabs nav-stacked">
@@ -14,10 +14,10 @@
         <div class="span6">
             <div class="row-fluid">
                 <article>
-                    <img src="<?php echo base_url("img/7.jpg"); ?>" alt="" class="img img-rounded pull-left" style="width: 250px;"/>
+                    <img class="img img-polaroid img-rounded" data-src="holder.js/600x360/auto"/>
                     <span for="" class="label">Data e hora da postagem</span>
-                    <h1 class="tituloArtigo">Título Artigo</h1>
-                    <span>Subtítulo Artigo</span>
+                    <h1 class="tituloArtigo">Título do doce</h1>
+                    <span>Subtítulo Doce</span>
                     <p class="conteudoArtigo">Mussum ipsum cacilds, vidis 
                         litro abertis. Consetis adipiscings elitis. Pra lá , 
                         depois divoltis porris, paradis. Paisis, filhis, 

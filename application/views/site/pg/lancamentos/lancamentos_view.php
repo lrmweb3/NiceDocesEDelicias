@@ -1,42 +1,26 @@
 
-{header}
+
 <div class="container lancamentos">
 
     <?php
     switch ($tela) {
         case 'lista':
-            ?>
-            {paginas}
-            <?php
+            include_once 'pg/lista.php';
             break;
 
         case 'item':
+            include_once 'pg/item.php';
+            break;
+
+        case 'gerenciar':
             ?>
-            {paginas}
+            Página em contrução
             <?php
             break;
 
-        case 'lista':
-            include_once '';
-            break;
-
-        case 'lista':
-            include_once '';
-            break;
-
-        case 'lista':
-            include_once '';
-            break;
-
-        case 'lista':
-            include_once '';
-            break;
-
-        case 'lista':
-            include_once '';
-            break;
-
         default:
+            echo 'Página não encontrada';
             break;
     }
     ?>
+</div>

@@ -85,7 +85,7 @@
 **************  LANÇAMENTOS  *************/
 
 .lancamentos{
-    
+
 }
 .resultado_lancamento {
     max-width: 370px;
@@ -100,6 +100,35 @@
     font-size: 0.9em;
 }
 
+.lancamentos ul .active{
+    background-color: #faa732;
+    background-image: -moz-linear-gradient(center top , #fbb450, #f89406);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.lancamentos ul .active a{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.lancamentos article p{
+    text-align: justify;
+}
+.lancamentos .relacionados h1{
+    font-size: 1.5em;
+    line-height: 30px;
+}
+.lancamentos .relacionados .relacionadosItem{
+    text-align: center;
+    color: #333333;
+}
 
 /**************************************
 **************  CONTATO  *************/
