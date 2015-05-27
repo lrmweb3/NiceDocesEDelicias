@@ -23,6 +23,10 @@
     padding: 5px;
     background-color: #E2C49D;
     text-align: center;
+      
+    background: linear-gradient(#C8A25B , transparent) !important;
+    text-align: center;
+    padding: 3px;
 }
 .barraDePesquisa .form-search{
     margin: 0 auto;

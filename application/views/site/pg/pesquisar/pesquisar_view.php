@@ -1,9 +1,4 @@
-<div class="barraDePesquisa">
-    <form class="form-search">
-        <input type="text" class="span4 input-large search-query" placeholder="Digite sua busca e pressione enter." autofocus="" required="">
-        <button type="submit" class="btn btn-info">Busca</button>
-    </form>
-</div>
+
 <div class="gradiente_pesquisa">
     <span>Foram encontrados <strong>90</strong> resultados</span>
 </div>
