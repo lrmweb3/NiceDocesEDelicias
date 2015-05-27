@@ -17,8 +17,8 @@ class Pesquisar extends CI_Controller {
         set_tema('CSSpagina', '', FALSE);
         set_tema('JSpagina', '', FALSE);
 
-
         set_tema('header', load_modulo('header', '', 'site/includes'));
+        set_tema('pesquisar', load_modulo('barraPesquisa', '', 'site/pg/pesquisar'));
         set_tema('paginas', load_modulo('pesquisar_view', '', 'site/pg/pesquisar'));
         set_tema('footer', load_modulo('footer', '', 'site/includes'));
 
