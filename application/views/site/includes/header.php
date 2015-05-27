@@ -19,8 +19,8 @@
                     <!-- Tudo que você queira escondido em 940px ou menos, coloque aqui -->
                     <div class="nav-collapse">
                         <ul class="nav nav-pills">
-                            <li class="btn btn-warning btn-header"><a href="<?php echo base_url("lancamentos") ?>">Lançametnos</a></li>
-                            <li class="btn btn-warning btn-header"><a href="<?php echo base_url("doces") ?>">Doces</a></li>
+                            <li class="btn btn-warning btn-header"><a href="<?php echo base_url("lancamentos/lista") ?>">Lançametnos</a></li>
+                            <li class="btn btn-warning btn-header"><a href="<?php echo base_url("doces/lista") ?>">Doces</a></li>
                             <li class="btn btn-warning btn-header"><a href="<?php echo base_url("salgados") ?>">Salgados</a></li>
                             <li class="btn btn-warning btn-header"><a href="<?php echo base_url("servicos") ?>">Serviços</a></li>
                             <li class="btn btn-warning btn-header"><a href="<?php echo base_url("eventos") ?>">Eventos</a></li>
