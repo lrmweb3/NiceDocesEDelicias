@@ -156,3 +156,36 @@
     margin-top: 3em;
     font-size: 1.2em;
 }
+
+/**************************************
+**************  Rodapé  *************/
+
+.fd_mapa_site {
+    width: 332px;
+    height: 230px;
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+    display: block;
+    background-color: #D1A073;
+}
+
+.fd_parceiro_colaboradores {
+    width: 430px;
+    height: 230px; 
+    margin-top: 10px;
+    margin-left: 13px;
+    
+    display: block;
+    background-color: #D1A073;
+}
+
+.fd_redes_sociais {
+    width: 335px;
+    height: 230px;
+    margin-top: 10px;
+    margin-right: 5px;
+    float: right;
+    display: block;
+    background-color: #D1A073;
+}
