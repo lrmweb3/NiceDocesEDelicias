@@ -165,19 +165,38 @@
     height: 230px;
     margin-top: 10px;
     margin-left: 5px;
+    margin-bottom: 10px;
     float: left;
     display: block;
     background-color: #D1A073;
+    border-color: #876648;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    border-color: #876648;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    font-family: arial;
+    font-size: 15px;
+    color: #ffffff;
 }
 
 .fd_parceiro_colaboradores {
     width: 430px;
     height: 230px; 
     margin-top: 10px;
-    margin-left: 13px;
-    
+    margin-left: 27px;
+    margin-bottom: 10px;
     display: block;
     background-color: #D1A073;
+    border-color: #876648;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    font-family: arial;
+    font-size: 8px;
+    color: #ffffff;
 }
 
 .fd_redes_sociais {
@@ -185,7 +204,15 @@
     height: 230px;
     margin-top: 10px;
     margin-right: 5px;
+    margin-bottom: 10px;
     float: right;
     display: block;
     background-color: #D1A073;
+    border-color: #876648;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: thin;
+    font-family: arial;
+    font-size: 8px;
+    color: #ffffff;
 }
