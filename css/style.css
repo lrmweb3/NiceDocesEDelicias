@@ -24,14 +24,34 @@
 
 /*----  Comum a todas as páginas -----*/
 
-.docesItem .span9 article .img,
-.salgadoItem .span9 article .img,
-.eventosItem .span9 article .img{
+.span9 article .img{
     float: left;
     margin-right: 10px;
 }
 
+.span9 article .span8 h1{
+    font-size: 1.2em;
+    margin: 7px 0;
+    line-height: normal;
+}
 
+.relacionados h1{
+    font-size: 1.5em;
+    margin: 0;
+    line-height: normal;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+.relacionadosItem h3{
+    font-size: 1em;
+    margin: 0;
+    line-height: normal;
+}
+
+.lancamentos .relacionados .relacionadosItem{
+    text-align: center;
+    color: #333333;
+}
 /*-------------- Barra gradiente superior ----------------*/
 .barraDePesquisa{
     padding: 5px;
@@ -137,14 +157,8 @@
 .lancamentos article p{
     text-align: justify;
 }
-.lancamentos .relacionados h1{
-    font-size: 1.5em;
-    line-height: 30px;
-}
-.lancamentos .relacionados .relacionadosItem{
-    text-align: center;
-    color: #333333;
-}
+
+
 
 /**************************************
 **************  CONTATO  *************/

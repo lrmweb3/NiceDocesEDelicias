@@ -20,7 +20,7 @@ class Lancamentos extends CI_Controller {
         set_tema('titulo', 'Lançamentos');
 
         set_tema('header', load_modulo('header', '', 'site/includes'));
-        set_tema('paginas', load_modulo('lancamentos_view', '', 'site/pg/lancamentos'));
+        set_tema('paginas', load_modulo('lancamentos_view', 'lista', 'site/pg/lancamentos'));
         set_tema('footer', load_modulo('footer', '', 'site/includes'));
 
         load_template();
