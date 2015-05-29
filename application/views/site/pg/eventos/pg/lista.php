@@ -1,5 +1,5 @@
 
-<div class="container-fluid eventosLista">
+<div class="container eventosLista">
     <div class="row-fluid">
         <div class="span3">
             <ul class="nav nav-tabs nav-stacked">

@@ -1,24 +1,20 @@
-<div class="container eventos">
+<?php
+switch ($tela) {
+    case 'lista':
+        include_once 'pg/lista.php';
+        break;
 
-    <?php
-    switch ($tela) {
-        case 'lista':
-            include_once 'pg/lista.php';
-            break;
+    case 'item':
+        include_once 'pg/item.php';
+        break;
 
-        case 'item':
-            include_once 'pg/item.php';
-            break;
+    case 'gerenciar':
+        ?>
+        Página em contrução
+        <?php
+        break;
 
-        case 'gerenciar':
-            ?>
-            Página em contrução
-            <?php
-            break;
-
-        default:
-            echo 'Página não encontrada';
-            break;
-    }
-    ?>
-</div>
+    default:
+        echo 'Página não encontrada';
+        break;
+}

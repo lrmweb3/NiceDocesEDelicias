@@ -14,8 +14,8 @@
         <div class="span9">
             <div class="row-fluid">
                 <article>
+                    <img class="img img-polaroid img-rounded" data-src="holder.js/300x180/auto"/>
                     <div class="row-fuid"><span for="" class="label">Data e hora da postagem</span></div>
-                    <img class="img img-polaroid img-rounded" data-src="holder.js/300x180/auto"/><br />
                     <h1 class="tituloArtigo">Título do salgado</h1>
                     <span>Subtítulo Artigo</span>
                     <p>Mussum ipsum cacilds, vidis 

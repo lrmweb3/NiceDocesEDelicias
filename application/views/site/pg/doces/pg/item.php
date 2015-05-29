@@ -1,5 +1,5 @@
 
-<div class="container-fluid docesItem">
+<div class="container docesItem">
     <div class="row-fluid">
         <div class="span3">
             <ul class="nav nav-tabs nav-stacked">
@@ -11,11 +11,11 @@
                 <li><a href="#">Sua saúde</a></li>
             </ul>
         </div>
-        <div class="span6">
+        <div class="span9">
             <div class="row-fluid">
                 <article>
-                    <img class="img img-polaroid img-rounded" data-src="holder.js/600x360/auto"/>
-                    <span for="" class="label">Data e hora da postagem</span>
+                    <img class="img img-polaroid img-rounded" data-src="holder.js/300x180/auto"/>
+                    <span class="label">Data e hora da postagem</span>
                     <h1 class="tituloArtigo">Título do doce</h1>
                     <span>Subtítulo Doce</span>
                     <p class="conteudoArtigo">Mussum ipsum cacilds, vidis 
@@ -92,6 +92,5 @@
                 </div>
             </div>
         </div>
-        <div class="span3 well">Propaganda</div>
     </div>
 </div>

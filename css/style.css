@@ -10,11 +10,25 @@
 */
 
 
-
 /**************************************
-**************    HADER  *************/
+**************    PAGINAS  *************/
+
 .paginas{
     background: url("../img/fundoPaginas.jpg");
+}
+
+.eventosLista,.eventosItem,.docesItem, .salgadoItem{
+    margin-top: 1.5em;
+}
+
+
+/*----  Comum a todas as páginas -----*/
+
+.docesItem .span9 article .img,
+.salgadoItem .span9 article .img,
+.eventosItem .span9 article .img{
+    float: left;
+    margin-right: 10px;
 }
 
 
@@ -52,6 +66,7 @@
     text-shadow: 0 0 2px #000;
 }
 
+
 //Grupo com todos os resultados da pesquisa
 .pesquisar{
     text-align: center;
@@ -79,9 +94,7 @@
     float: bottom;
     margin-top: 20px;
 }
-.marginTop20{
-    margin-top: 20px;
-}
+
 
 
 /**************************************
