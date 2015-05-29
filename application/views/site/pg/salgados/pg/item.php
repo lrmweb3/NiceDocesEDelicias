@@ -74,26 +74,31 @@
                         </a>
                         <h3>Titulo do imagem</h3>
                         <span>Mussum ipsum cacilds, vidis litro aberti</span>
-                        <a href="#" class="btn btn-mini btn-info btn-block">Mais detales [+]</a>
+                        <a href="#" class="btn btn-mini btn-danger btn-block">Mais detales [+]</a>
                     </div>
                     <div class="span3 relacionadosItem">
                         <a href="">
-                            <img class="img img-polaroid img-rounded" data-src="holder.js/220x135/auto"/>
-                            <h3>Titulo do imagem</h3>
-                            <span>Mussum ipsum cacilds, vidis litro aberti</span>
+                            <img class="img img-polaroid img-rounded" data-src="holder.js/220x135/auto"/>  
                         </a>
+                        <h3>Titulo do imagem</h3>
+                        <span>Mussum ipsum cacilds, vidis litro aberti</span>
+                        <a href="#" class="btn btn-mini btn-danger btn-block">Mais detales [+]</a>
                     </div>
-                    <div class="span3 relacionadosItem"><a href="">
-                            <img class="img img-polaroid img-rounded" data-src="holder.js/220x135/auto"/>
-                            <h3>Titulo do imagem</h3>
-                            <span>Mussum ipsum cacilds, vidis litro aberti</span>
-                        </a></div>
                     <div class="span3 relacionadosItem">
                         <a href="">
-                            <img class="img img-polaroid img-rounded" data-src="holder.js/220x135/auto"/>
-                            <h3>Titulo do imagem</h3>
-                            <span>Mussum ipsum cacilds, vidis litro aberti</span>
+                            <img class="img img-polaroid img-rounded" data-src="holder.js/220x135/auto"/>  
                         </a>
+                        <h3>Titulo do imagem</h3>
+                        <span>Mussum ipsum cacilds, vidis litro aberti</span>
+                        <a href="#" class="btn btn-mini btn-danger btn-block">Mais detales [+]</a>
+                    </div>
+                    <div class="span3 relacionadosItem">
+                        <a href="">
+                            <img class="img img-polaroid img-rounded" data-src="holder.js/220x135/auto"/>  
+                        </a>
+                        <h3>Titulo do imagem</h3>
+                        <span>Mussum ipsum cacilds, vidis litro aberti</span>
+                        <a href="#" class="btn btn-mini btn-danger btn-block">Mais detales [+]</a>
                     </div>
                 </div>
             </div>
