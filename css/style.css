@@ -63,7 +63,7 @@
 }
 
 .resultado_pesquisa {
-    max-width: 270px;
+    max-width: 260px;
     display: inline-block;
     margin-left: 10px;
     margin-bottom: 30px;
@@ -77,6 +77,9 @@
 
 #paginacao{
     float: bottom;
+    margin-top: 20px;
+}
+.marginTop20{
     margin-top: 20px;
 }
 
@@ -157,62 +160,3 @@
     font-size: 1.2em;
 }
 
-/**************************************
-**************  Rodapé  *************/
-
-.fd_mapa_site {
-    width: 332px;
-    height: 230px;
-    margin-top: 10px;
-    margin-left: 5px;
-    margin-bottom: 10px;
-    float: left;
-    display: block;
-    background-color: #D1A073;
-    border-color: #876648;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: thin;
-    border-color: #876648;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: thin;
-    font-family: arial;
-    font-size: 15px;
-    color: #ffffff;
-}
-
-.fd_parceiro_colaboradores {
-    width: 430px;
-    height: 230px; 
-    margin-top: 10px;
-    margin-left: 27px;
-    margin-bottom: 10px;
-    display: block;
-    background-color: #D1A073;
-    border-color: #876648;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: thin;
-    font-family: arial;
-    font-size: 8px;
-    color: #ffffff;
-}
-
-.fd_redes_sociais {
-    width: 335px;
-    height: 230px;
-    margin-top: 10px;
-    margin-right: 5px;
-    margin-bottom: 10px;
-    float: right;
-    display: block;
-    background-color: #D1A073;
-    border-color: #876648;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: thin;
-    font-family: arial;
-    font-size: 8px;
-    color: #ffffff;
-}

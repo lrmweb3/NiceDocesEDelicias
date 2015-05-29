@@ -12,6 +12,20 @@ class Salgados extends CI_Controller {
         init_site();
     }
 
+    public function index() {
+
+        set_tema('CSSpagina', '', FALSE);
+        set_tema('JSpagina', '', FALSE);
+
+        set_tema('titulo', 'Salgados');
+
+        set_tema('header', load_modulo('header', '', 'site/includes'));
+        set_tema('paginas', load_modulo('salgados_view', 'lista', 'site/pg/salgados'));
+        set_tema('footer', load_modulo('footer', '', 'site/includes'));
+
+        load_template();
+    }
+
     public function lista() {
 
         set_tema('CSSpagina', '', FALSE);
