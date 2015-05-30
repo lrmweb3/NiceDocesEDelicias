@@ -1,0 +1,26 @@
+/*set a border on the images to prevent shifting*/ 
+#gallery_01 img{
+
+} 
+
+/*Change the colour*/ 
+
+#gallery_01{
+    padding-top: 5px;
+    display: block;
+    background: #f8b9b7;
+}
+#gallery_01 a{
+    width: 50px;
+}
+#gallery_01 img {
+    width: 96px;
+    margin-top: 5px;
+    border: 2px solid #333 !important;
+}
+#gallery_09 img {
+    width: 96px;
+}
+.active img {
+    border: 2px solid #333 !important;
+}

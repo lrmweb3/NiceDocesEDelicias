@@ -25,7 +25,6 @@
 /*----  Comum a todas as páginas -----*/
 
 .span9 article .span4{
-    text-align: center;
 }
 .span9 article .span8 h1{
     font-size: 1.2em;
@@ -34,8 +33,8 @@
 }
 
 .relacionadosItem {
- text-align: center;   
- margin-bottom: 15px;
+    text-align: center;   
+    margin-bottom: 15px;
 }
 .relacionados h1{
     font-size: 1.5em;
@@ -48,6 +47,16 @@
     font-size: 1.1em;
     margin: 10px;
     margin-bottom: 3px;
+    line-height: normal;
+}
+.produtoItem{
+    margin-bottom: 7px;
+    float: left;
+    margin-right: 15px;
+}
+.detalhesProdutoItem h1{
+    font-size: 1.5em;
+    margin: 5px 0;
     line-height: normal;
 }
 

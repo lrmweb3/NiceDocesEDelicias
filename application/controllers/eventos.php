@@ -42,8 +42,9 @@ class Eventos extends CI_Controller {
 
     public function item() {
 
+
         set_tema('CSSpagina', '', FALSE);
-        set_tema('JSpagina', '', FALSE);
+        set_tema('JSpagina', load_js('elevant-zoom', 'js'), FALSE);
 
         set_tema('titulo', 'Eventos');
 
