@@ -1,9 +1,9 @@
 
-<div class="container eventosItem" >
+<div class="container eventosItem">
     <div class="row-fluid">
         <div class="span3">
             <ul class="nav nav-tabs nav-stacked">
-                <li class="active"><a href="#">Artigos por categorias</a></li>
+                <li class="alert alert-danger"><h4>Artigos por categorias</h4></li>
                 <li><a href="#">Artigos recentes</a></li>
                 <li><a href="#">Antivírus</a></li>
                 <li><a href="#">Seu PC</a></li>
