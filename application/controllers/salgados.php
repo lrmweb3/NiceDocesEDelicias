@@ -42,9 +42,9 @@ class Salgados extends CI_Controller {
 
     public function item() {
 
-        set_tema('CSSpagina', '', FALSE);
-        set_tema('JSpagina', '', FALSE);
-
+        set_tema('CSSpagina', load_css('elevante-zoom'), FALSE);
+        set_tema('JSpagina', load_js('elevant-zoom'), FALSE);
+        
         set_tema('titulo', 'Salgados');
 
         set_tema('header', load_modulo('header', '', 'site/includes'));

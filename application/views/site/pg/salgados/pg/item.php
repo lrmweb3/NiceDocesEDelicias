@@ -3,7 +3,7 @@
     <div class="row-fluid">
         <div class="span3">
             <ul class="nav nav-tabs nav-stacked">
-                <li class="active"><a href="#">Artigos por categorias</a></li>
+                <li class="alert alert-info">Artigos por categorias</li>
                 <li><a href="#">Artigos recentes</a></li>
                 <li><a href="#">Antivírus</a></li>
                 <li><a href="#">Seu PC</a></li>
@@ -14,29 +14,55 @@
         <div class="span9">
             <div class="row-fluid" style="margin-bottom: 1.5em;">
                 <article>
-                    <div class="row-fluid">
-                        <div class="span4">
-                            <img class="img img-polaroid img-rounded" data-src="holder.js/300x180/auto"/>
+                    <div class="produtoItem">
+                        <div class="imgProdutoItem">
+                            <!--      <img class="img img-polaroid img-rounded" data-src="holder.js/300x180/auto"/>-->
+                            <img style="margin-bottom: 5px; border:2px solid #e8e8e6;" id="zoom_03" 
+                                 src="<?php echo base_url('img/small/image1.png') ?> " 
+                                 data-zoom-image="<?php echo base_url('img/large/image1.jpg') ?>" width="411" alt=""/>
                         </div>
-                        <div class="span8">
-                            <div class="row-fuid"><span for="" class="label">Data e hora da postagem</span></div>
-                            <h1 class="tituloArtigo">Título do salgado</h1>
-                            <span>Subtítulo Artigo</span>
-                            <p>Mussum ipsum cacilds, vidis 
-                                litro abertis. Consetis adipiscings elitis. Pra lá , 
-                                depois divoltis porris, paradis. Paisis, filhis, 
-                                espiritis santis. Mé faiz elementum.
-                            </p>
-                            <a href="" class="btn btn-primary btn-mini">Indicar a um amigo</a>
-                            <a href="" class="btn btn-warning btn-mini">Comentar</a>
+                        <div id="gallery_01">
+                            <a href="#" data-update="" data-image="<?php echo base_url('img/small/image1.png') ?>" 
+                               data-zoom-image="<?php echo base_url('img/large/image1.jpg') ?>">
+                                <img src="<?php echo base_url('img/small/image1.png') ?>" width="100" alt="" />
+                            </a>
+                            <a href="#" data-image="<?php echo base_url('img/small/image2.png') ?>"
+                               data-zoom-image="<?php echo base_url('img/large/image2.jpg') ?>">
+                                <img src="<?php echo base_url('img/small/image2.png') ?>" width="100" alt="" />
+                            </a>
+
+                            <a href="#" data-image="<?php echo base_url('img/small/image3.png') ?>" 
+                               data-zoom-image="<?php echo base_url('img/large/image3.jpg') ?>">
+                                <img src="<?php echo base_url('img/small/image3.png') ?>" width="100" alt=""/>
+                            </a>
+
+                            <a href="#" data-image="<?php echo base_url('img/small/image4.png') ?>" 
+                               data-zoom-image="<?php echo base_url('img/large/image4.jpg') ?>">
+                                <img src="<?php echo base_url('img/small/image4.png') ?>" width="100" alt="" />
+                            </a>
                         </div>
+
                     </div>
+
+                    <div class="detalhesProdutoItem">
+                        <div class="row-fuid"><span for="" class="label">Data e hora da postagem</span></div>
+                        <h1 class="tituloArtigo">Título do salgado</h1>
+                        <span>Subtítulo Artigo</span>
+                        <p>Mussum ipsum cacilds, vidis 
+                            litro abertis. Consetis adipiscings elitis. Pra lá , 
+                            depois divoltis porris, paradis. Paisis, filhis, 
+                            espiritis santis. Mé faiz elementum.
+                        </p>
+                        <a href="" class="btn btn-primary btn-mini">Indicar a um amigo</a>
+                        <a href="" class="btn btn-warning btn-mini">Comentar</a>
+                    </div>
+
                 </article>
             </div>
             <div class="row-fluid">
                 <ul id="detalhes" class="nav nav-tabs">
-                    <li class="active"><a href="#home" data-toggle="tab">Início</a></li>
-                    <li><a href="#profile" data-toggle="tab">Perfil</a></li>
+                    <li class="active"><a href="#home" data-toggle="tab">Informações</a></li>
+                    <li><a href="#profile" data-toggle="tab">Principais ingredientes</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                         <ul class="dropdown-menu">
