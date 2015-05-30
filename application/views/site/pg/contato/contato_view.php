@@ -1,6 +1,6 @@
 <div class="container contato">
     <h1 class="page-header">Fale conosco</h1>
-    <h5>Agradecemos por acessar nosso canal de comunicação! Se você ainda não é cliente MovimentoWeb
+    <h5>Agradecemos por acessar nosso canal de comunicação! Se você ainda não é nosso cliente mas
         e deseja obter mais informações, Para tirar dúvidas sobre nossos produtos ou serviços, fazer
         um orçamento, elogio ou fazer sugestões. Entre em contato com nossa equipe através do
         formulário abaixo.
@@ -31,6 +31,13 @@
             </form>
         </div>
         <div class="span6">
+            <div class="row-fluid">
+                <div class="bate-papo well">
+                    <img class="img img-polaroid img-rounded" style="float: left" src="" alt="" data-src="holder.js/100x80/auto"/>
+                    <h1>Chat Online</h1>
+                    <p>Clique aqui para falar com um de nossos atententes agora!</p>
+                </div>
+            </div>
             <div class="endereco">
                 <p>
                     Localizado à Rua Dom expedito Moura, 255, Casa B<br />

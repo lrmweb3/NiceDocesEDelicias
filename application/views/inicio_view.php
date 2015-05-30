@@ -31,7 +31,7 @@
 
         <div class="paginas">
             {header} 
-
+            {pesquisar}
             {paginas} 
             {footer}
         </div>
