@@ -19,7 +19,7 @@ class Inicio extends CI_Controller {
 
 
         set_tema('header', load_modulo('header', '', 'site/includes'));
-        set_tema('paginas', load_modulo('site/paginas_view', 'home'));
+        set_tema('paginas', load_modulo('home_view', '','site/pg/home'));
         set_tema('footer', load_modulo('footer', '', 'site/includes'));
 
         load_template();
