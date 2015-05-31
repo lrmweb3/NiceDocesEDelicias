@@ -14,7 +14,8 @@
 **************    PAGINAS  *************/
 
 .paginas{
-    background: url("../img/fundoPaginas.jpg");
+    background-image: url("../img/fundoPaginas.jpg");
+
 }
 
 .eventosLista,.eventosItem,.docesItem, 
@@ -76,6 +77,7 @@
     background: linear-gradient(#C8A25B , transparent) !important;
     text-align: center;
     padding: 3px;
+    min-height: 3em;
 }
 .gradiente_pesquisa span {
     font-style: oblique;
