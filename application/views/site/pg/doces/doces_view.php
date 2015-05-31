@@ -1,3 +1,4 @@
+<div class="gradiente_pesquisa"></div>
 <?php
 switch ($tela) {
     case 'lista':

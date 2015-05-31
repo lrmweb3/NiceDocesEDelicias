@@ -1,5 +1,4 @@
-
-
+<div class="gradiente_pesquisa"></div>
 <div class="container doces">
 
     <?php

@@ -1,3 +1,4 @@
+<div class="gradiente_pesquisa"></div>
 <div class="container contato">
     <h1 class="page-header">Fale conosco</h1>
     <h5>Agradecemos por acessar nosso canal de comunicação! Se você ainda não é nosso cliente mas
