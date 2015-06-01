@@ -1,7 +1,9 @@
 <div class="header">
     <div class="row-fluid">
         <div class="container logo">
-            <img src="<?php echo base_url('img/logo/logo.png') ?>" title="Logomarca Site Nice doces e Delícias" alt="Logomarca Site Nice doces e Delícias" />
+            <a href="<?php echo base_url() ?>">
+                <img src="<?php echo base_url('img/logo/logo.png') ?>" title="Logomarca Site Nice doces e Delícias" alt="Logomarca Site Nice doces e Delícias" />
+            </a>
         </div>
     </div>
     <div class="row-fluid menu">

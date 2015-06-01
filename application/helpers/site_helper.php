@@ -24,7 +24,7 @@ function init_site() {
     set_tema('JSglobal', load_js(array('bootstrap.min', 'holder', 'funcoes', 'header', 'jquery.elastislide', 'jquerypp.custom', 'modernizr.custom.17475')), FALSE);
     set_tema('JSglobal', load_js(array('headerSlideShow-imagesLoader', 'header.sideShow')), FALSE); //Slide Show header
 
-    set_tema('pesquisar', '');
+    set_tema('pesquisar', load_modulo('barraPesquisa', NULL, 'site/pg/pesquisar'));
     set_tema('titulo_padrao', 'Nice Doces e Delícias');
     set_tema('template', 'inicio_view');
 }
