@@ -18,7 +18,7 @@
 
 }
 
-.eventosLista,.eventosItem,.docesItem, 
+.docesItem, 
 .salgadoItem,.lancamentoItem{
     margin-top: 1.5em;
 }
@@ -37,11 +37,14 @@
     margin-bottom: 15px;
     display: inline-block;
 }
+.relacionados{
+    margin-bottom: 10px;
+}
 .relacionados h1{
     font-size: 1.5em;
     margin: 0;
     line-height: normal;
-    margin-bottom: 10px;
+    
     line-height: 30px;
 }
 .relacionadosItem h3{
@@ -167,6 +170,22 @@
 .lancamentos article p{
     text-align: justify;
 }
+
+
+
+/**************************************
+**************  EVENTOS  *************/
+
+.eventosLista{}
+
+.eventosItem h1{
+    font-size: 1.5em;
+    margin: 0;
+}
+.eventosItem .carousel{
+    margin-bottom: 5px;
+}
+
 
 
 

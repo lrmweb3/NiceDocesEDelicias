@@ -17,7 +17,6 @@ class Contato extends CI_Controller {
         set_tema('CSSpagina', '', FALSE);
         set_tema('JSpagina', '', FALSE);
 
-
         set_tema('header', load_modulo('header', '', 'site/includes'));
         set_tema('paginas', load_modulo('contato_view', '', 'site/pg/contato'));
         set_tema('footer', load_modulo('footer', '', 'site/includes'));
