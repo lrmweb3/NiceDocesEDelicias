@@ -34,17 +34,53 @@
                 <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
             </div>
         </div>
-        <div class="span4">
-            <h1 class="label label-info tituloChamada">Detalhes do contato</h1>
-            <div class="row-fluid">
-                <div class="span8"></div>
-                <div class="span4"><img class="img img-polaroid img-rounded" data-src="holder.js/350x210/auto"/></div>
+        <div class="span4 well noticias">
+            <h1 class="label label-important tituloNoticias">Notícias</h1>
+            <div class="row-fluid noticiaItem">
+                <div class="span4">
+                    <a href="#">
+                        <img class="img img-polaroid img-rounded" src="<?php echo base_url('img/miniaturas/noticias.jpg') ?>"/>
+                    </a>
+                </div>
+                <div class="span8">
+                    <h1>Título notícias</h1>
+                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.</p>
+                    <p><a href="" class="btn btn-warning btn-mini" >Mais detalhes</a></p>
+                </div>
+            </div>
+            <hr />
+            <div class="row-fluid noticiaItem">
+                <div class="span4">
+                    <a href="#">
+                        <img class="img img-polaroid img-rounded" src="<?php echo base_url('img/miniaturas/noticias.jpg') ?>"/>
+                    </a>
+                </div>
+                <div class="span8">
+                    <h1>Título notícias</h1>
+                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.</p>
+                    <p><a href="" class="btn btn-warning btn-mini" >Mais detalhes</a></p>
+                </div>
+            </div>
+            <hr />
+            <div class="row-fluid noticiaItem">
+                <div class="span4">
+                    <a href="#">
+                        <img class="img img-polaroid img-rounded" src="<?php echo base_url('img/miniaturas/noticias.jpg') ?>"/>
+                    </a>
+                </div>
+                <div class="span8">
+                    <h1>Título notícias</h1>
+                    <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.</p>
+                    <p><a href="" class="btn btn-warning btn-mini" >Mais detalhes</a></p>
+                </div>
             </div>
         </div>
 
     </div>
-    <div class="row-fluid">   <div class="span4">
+    <div class="row-fluid">   
+        <div class="span4">
             <img class="img img-polaroid img-rounded" data-src="holder.js/360x216/auto"/>
-        </div></div>
+        </div>
+    </div>
     <div class="row-fluid"></div>
 </div>
