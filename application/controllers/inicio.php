@@ -17,6 +17,7 @@ class Inicio extends CI_Controller {
 
         set_tema('CSSpagina', load_css(array('jcarousel.responsive')), FALSE); //Carrocel de imagens página home
         set_tema('JSpagina', load_js(array('jquery.jcarousel.min', 'jcarousel.responsive')), FALSE); //Carrocel de imagens página home
+        set_tema('JSpagina', load_js(array('funcoes_slideShowHorizontal'), 'js/funcoes-PG-Inicial'), FALSE); //Carrocel de imagens horizotal
 
         set_tema('header', load_modulo('header', '', 'site/includes'));
         set_tema('paginas', load_modulo('home_view', '', 'site/pg/home'));

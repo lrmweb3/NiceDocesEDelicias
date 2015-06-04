@@ -1,3 +1,13 @@
+<div id="fb-root"></div>
+<script>(function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id))
+            return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 <div class="gradiente_pesquisa"></div>
 <div class="container home">
     <div class="row-fluid">
@@ -122,10 +132,13 @@
         <div class="span3 well">
 
         </div>
-        <div class="span3 well">
-            Facebook
+        <div class="span3">
+            <div class="fb-like-box" data-href="https://www.facebook.com/www.movimentoweb.com.br" data-width="270" data-height="300" data-show-faces="true" data-stream="false" data-header="true"></div>
         </div>
     </div>
-    <div class="row-fluid"></div>
+    <div class="row-fluid">espaço disponível</div>
 </div>
 
+<script type="text/javascript">
+
+</script>

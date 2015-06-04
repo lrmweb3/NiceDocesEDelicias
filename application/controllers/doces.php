@@ -42,6 +42,7 @@ class Doces extends CI_Controller {
 
     public function item() {
         set_tema('CSSpagina', load_css('elevante-zoom'), FALSE);
+        set_tema('JSpagina', load_js('imageZoom', 'js/imageZoom', FALSE));
         set_tema('JSpagina', load_js('elevant-zoom'), FALSE);
 
         set_tema('titulo', 'Doces');
