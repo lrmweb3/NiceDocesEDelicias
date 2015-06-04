@@ -115,30 +115,30 @@
     <div class="row-fluid">   
         <div class="span6 well depoimentos">
             <div class="row-fluid">
-                <div class="span5">
+                <div class="span6">
                     <img class="img img-polaroid img-rounded" data-src="holder.js/320x400/auto"/>
                 </div>
-                <div class="span7">
+                <div class="span6">
                     <h1>Depoimeto de clientes</h1>
                     <p>
                         Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. 
-                        Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. 
-                        Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem 
-                        é amistosis quis leo. <a href="#" class="btn btn-link">Ver mais...</a>
+                        Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis 
+                        santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis 
+                        mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. 
+                        Sapien in monti palavris qui num significa nadis i pareci latim. 
+                        Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+                        Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis 
+                        e fermentis.  
+                        <a href="#" class="btn btn-link">Ver mais...</a>
                     </p>
                 </div>
             </div>
         </div>
         <div class="span3 well">
-
+            espaço disponível
         </div>
         <div class="span3">
             <div class="fb-like-box" data-href="https://www.facebook.com/www.movimentoweb.com.br" data-width="270" data-height="300" data-show-faces="true" data-stream="false" data-header="true"></div>
         </div>
     </div>
-    <div class="row-fluid">espaço disponível</div>
 </div>
-
-<script type="text/javascript">
-
-</script>

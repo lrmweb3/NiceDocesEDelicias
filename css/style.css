@@ -163,12 +163,16 @@ border: 1px solid #d9940b;
 }
 
 
-
 /***  depoimntos dos clientes - DESTAQUE *******/
 
-.home .depoimentos .span5 
+.home .depoimentos .span6 h1{
+    font-size: 1.3em;
+    line-height: normal;
+} 
 
-
+.home .depoimentos .span6 p{
+    text-align: justify;
+}
 
 /**************************************
 **************  PESQUISAR  *************/
