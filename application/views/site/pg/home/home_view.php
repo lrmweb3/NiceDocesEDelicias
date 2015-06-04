@@ -96,12 +96,12 @@
         <div class="jcarousel-wrapper">
             <div class="jcarousel">
                 <ul>
-                    <li><img src="<?php echo base_url('img/imgCarrousel/img1.jpg') ?>" alt="Image 1"></li>
-                    <li><img src="<?php echo base_url('img/imgCarrousel/img2.jpg') ?>" alt="Image 2"></li>
-                    <li><img src="<?php echo base_url('img/imgCarrousel/img3.jpg') ?>" alt="Image 3"></li>
-                    <li><img src="<?php echo base_url('img/imgCarrousel/img4.jpg') ?>" alt="Image 4"></li>
-                    <li><img src="<?php echo base_url('img/imgCarrousel/img5.jpg') ?>" alt="Image 5"></li>
-                    <li><img src="<?php echo base_url('img/imgCarrousel/img6.jpg') ?>" alt="Image 6"></li>
+                    <li><a href=""><img src="<?php echo base_url('img/imgCarrousel/img1.jpg') ?>" alt="Image 1"></a></li>
+                    <li><a href=""><img src="<?php echo base_url('img/imgCarrousel/img2.jpg') ?>" alt="Image 2"></a></li>
+                    <li><a href=""><img src="<?php echo base_url('img/imgCarrousel/img3.jpg') ?>" alt="Image 3"></a></li>
+                    <li><a href=""><img src="<?php echo base_url('img/imgCarrousel/img4.jpg') ?>" alt="Image 4"></a></li>
+                    <li><a href=""><img src="<?php echo base_url('img/imgCarrousel/img5.jpg') ?>" alt="Image 5"></a></li>
+                    <li><a href=""><img src="<?php echo base_url('img/imgCarrousel/img6.jpg') ?>" alt="Image 6"></a></li>
                 </ul>
             </div>
 
@@ -113,12 +113,12 @@
         </div>
     </div>
     <div class="row-fluid">   
-        <div class="span6 well depoimentos">
+        <div class="span9 well depoimentos">
             <div class="row-fluid">
-                <div class="span6">
+                <div class="span5">
                     <img class="img img-polaroid img-rounded" data-src="holder.js/320x400/auto"/>
                 </div>
-                <div class="span6">
+                <div class="span7">
                     <h1>Depoimeto de clientes</h1>
                     <p>
                         Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. 
@@ -133,9 +133,7 @@
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="span3 well">
-            espaço disponível
+
         </div>
         <div class="span3">
             <div class="fb-like-box" data-href="https://www.facebook.com/www.movimentoweb.com.br" data-width="270" data-height="300" data-show-faces="true" data-stream="false" data-header="true"></div>

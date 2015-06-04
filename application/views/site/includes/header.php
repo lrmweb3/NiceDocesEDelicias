@@ -24,7 +24,7 @@
                             <li class="btn btn-warning btn-header"><a href="<?php echo base_url("lancamentos") ?>">Lançamentos</a></li>
                             <li class="btn btn-warning btn-header"><a href="<?php echo base_url("doces") ?>">Doces</a></li>
                             <li class="btn btn-warning btn-header"><a href="<?php echo base_url("salgados") ?>">Salgados</a></li>
-                            <li class="btn btn-warning btn-header"><a href="<?php echo base_url("servicos") ?>">Serviços</a></li>
+                            <li class="btn btn-warning btn-header"><a href="<?php echo base_url("portfolio") ?>">Portfólio</a></li>
                             <li class="btn btn-warning btn-header"><a href="<?php echo base_url("eventos") ?>">Eventos</a></li>
                             <li class="btn btn-warning btn-header"><a href="<?php echo base_url("contato") ?>">Contato</a></li>
                         </ul>
