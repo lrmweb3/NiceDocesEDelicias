@@ -1,5 +1,5 @@
 <div class="gradiente_pesquisa"></div>
-<div class="container lancamentos">
+<div class="container portfolio">
     <?php
     switch ($tela) {
         case 'lista':

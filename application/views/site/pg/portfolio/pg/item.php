@@ -1,5 +1,5 @@
 
-<div class="portfolio">
+<div class="portfolioItem">
     <div class="row-fluid">
         <div class="span6">
             <img class="img img-polaroid img-rounded" data-src="holder.js/600x450/auto"/>
@@ -19,13 +19,18 @@
                 Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo 
                 erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere 
                 pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat 
-                elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.
+                elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus 
+                scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.
 
-                Casamentiss faiz malandris se pirulitá, Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer Ispecialista im mé intende tudis nuam golada, vinho, uiski, carirí, rum da jamaikis, só num pode ser mijis. Adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-
+                Casamentiss faiz malandris se pirulitá, Nam liber tempor cum soluta nobis 
+                eleifend option congue nihil imperdiet doming id quod mazim placerat facer 
+                possim assum. Lorem ipsum dolor sit amet, consectetuer Ispecialista im mé 
+                intende tudis nuam golada, vinho, uiski, carirí, rum da jamaikis, só num pode 
+                ser mijis. Adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet 
+                dolore magna aliquam erat volutpat. 
             </p>
             <input type="button" class="btn btn-success btn-mini" value="Indicar para um amigo >>" />
         </div>
-
     </div>
 </div>

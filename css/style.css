@@ -208,11 +208,14 @@ border: 1px solid #d9940b;
 
 /**************************************
 **************  PORTFÓLIO  ************/
-.portfolio .portfolioLista{}
 
-.portfolio .portfolioLista h5{}
-
-
+.portfolio .portfolioLista .span6 h1{
+    font-size: 1.3em;
+    line-height: normal; 
+}
+.portfolio .portfolioLista p{
+    text-align: justify;
+}
 
 /**************************************
 **************  LANÇAMENTOS  *************/
