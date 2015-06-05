@@ -12,11 +12,11 @@ if (!defined('BASEPATH')) {
 function init_site() {
     $CI = &get_instance();
     $CI->load->library(array('sistema'));
+    $CI->load->helper(array('form', 'url', 'array', 'text'));
 
     //CSS e JS Global
     //CSS Boostrap
     set_tema('CSSglobal', load_css(array('bootstrap', 'bootstrap-responsive')), FALSE);
-
     set_tema('CSSglobal', load_css(array('headerEfooter', 'style')), FALSE); //Este arquivo tem que ficar sozinho e nesta posição
 
 

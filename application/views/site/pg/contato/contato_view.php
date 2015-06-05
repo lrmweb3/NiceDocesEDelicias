@@ -10,15 +10,15 @@
     </h5>
     <div class="row-fluid">
         <div class="span6">
-            <form class="form-horizontal well" name="formContato" method="post" action="" enctype="multipart/form-data">
+            <form class="form-horizontal well" name="formContato" method="post" action="<?php base_url('contato') ?>" enctype="multipart/form-data">
                 <label for="nome">Nome:
-                    <input id="nome" required="" autofocus="" type="text" name="nome" value="" class="input-block-level" >
+                    <input name="nome" id="nome" required="" autofocus="" type="text"  value="" class="input-block-level" >
                 </label>
                 <label for="email">E-mail:
-                    <input id="email" type="email" required="" name="email" value="" class="input-block-level" >
+                    <input name="email" id="email" type="email" required="" value="" class="input-block-level" >
                 </label>
                 <label for="tel">Telefone:
-                    <input id="tel" type="tel" name="tel" required="" value="" class="input-block-level" >
+                    <input id="tel" type="text" name="tel" required="" value="" class="input-block-level" >
                 </label>
                 <label for="empresa">Empresa:
                     <input id="empresa" type="text" name="empresa" value="" class="input-block-level" >
