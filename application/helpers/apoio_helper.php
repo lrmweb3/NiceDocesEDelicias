@@ -308,10 +308,10 @@ function load_modulo($pagina = NULL, $itemDoSwitchCase = NULL, $localDoArquivo =
     }
 }
 
-function set_tema($propriedade, $valor, $replace = TRUE) {
+function set_tema($propriedade, $valor, $sobrescrever = TRUE) {
     $CI = &get_instance();
     $CI->load->library('sistema');
-    if ($replace) {
+    if ($sobrescrever) {
         $CI->sistema->tema[$propriedade] = $valor;
     } else {
         if (!isset($CI->sistema->tema[$propriedade])) {

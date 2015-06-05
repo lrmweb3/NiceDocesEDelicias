@@ -18,8 +18,7 @@
                 <u><h4>Parceiros e Colaboradores</h4></u>
             </div>
             <div class="span3">
-                <h4>Redes Sociais</h4>
-                <a href="<?php echo base_url('painel') ?>" class="btn btn-danger btn-large">Painel Administrativo</a>
+                <u><h4>Redes Sociais</h4></u>
             </div>
         </div>
     </div>
