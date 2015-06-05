@@ -115,20 +115,31 @@
     <div class="row-fluid">   
         <div class="span9 well depoimentos">
             <div class="row-fluid">
-                <div class="span5">
-                    <img class="img img-polaroid img-rounded" data-src="holder.js/320x400/auto"/>
+                <div class="span6">
+                    <img class="img img-polaroid img-rounded" data-src="holder.js/400x400/auto"/>
                 </div>
-                <div class="span7">
+                <div class="span6">
                     <h1>Depoimeto de clientes</h1>
                     <p>
-                        Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. 
-                        Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis 
-                        santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis 
-                        mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. 
-                        Sapien in monti palavris qui num significa nadis i pareci latim. 
-                        Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
-                        Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis 
-                        e fermentis.  
+                        Silvio Santos Ipsum mah ooooee vem pra cá. Vem pra cá. 
+                        É fácil ou não éam? Ma vale dérreaisam? Ha haeeee. Hi 
+                        hi. Ha haeeee. Hi hi. Estamos em ritmo de festamm. Ma o 
+                        Silvio Santos Ipsum é muitoam interesanteam. Com ele ma 
+                        você vai gerar textuans ha haae. Ha haeeee. Hi hi. Ma 
+                        vejam só, vejam só.
+                        Valendo um milhão de reaisammm. Ma quem quer dinheiroam? 
+                        O arriscam tuduam, valendo um milhão de reaisuam. É bom
+                        ou não éam? É fácil ou não éam? É bom ou não éam? Você 
+                        veio da caravana de ondeammm? Ma você, topa ou não topamm. 
+                        É com você Lombardiam. É namoro ou amizadeemm? Ma vejam 
+                        só, vejam só. Mah roda a roduamm.
+
+                        Ma você está certo dissoam? Ma você, topa ou não topamm.
+                        Ma quem quer dinheiroam? Patríciaaammmm... Luiz 
+                        Ricardouaaammmmmm. Valendo um milhão de reaisammm. Eu 
+                        só acreditoammmm.... Vendoammmm. Ma tem ou não tem o 
+                        celular do milhãouamm? Ha hai. Bem boladoam, bem boladoam. 
+
                         <a href="#" class="btn btn-link">Ver mais...</a>
                     </p>
                 </div>

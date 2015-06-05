@@ -143,30 +143,30 @@
     max-height: 70px;
 }
 
-/*.home .noticiaItem:hover{*/
-background: rgba(240,185,104,0.65);
-background: -moz-linear-gradient(left, rgba(240,185,104,0.65) 0%, rgba(250,224,185,0.6) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(240,185,104,0.65)), color-stop(100%, rgba(250,224,185,0.6)));
-background: -webkit-linear-gradient(left, rgba(240,185,104,0.65) 0%, rgba(250,224,185,0.6) 100%);
-background: -o-linear-gradient(left, rgba(240,185,104,0.65) 0%, rgba(250,224,185,0.6) 100%);
-background: -ms-linear-gradient(left, rgba(240,185,104,0.65) 0%, rgba(250,224,185,0.6) 100%);
-background: linear-gradient(to right, rgba(240,185,104,0.65) 0%, rgba(250,224,185,0.6) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b968', endColorstr='#fae0b9', GradientType=1 );
-border-radius: 10px 10px 10px 10px;
--moz-border-radius: 10px 10px 10px 10px;
--webkit-border-radius: 10px 10px 10px 10px;
-border: 1px solid #d9940b;
-}
+/*.home .noticiaItem:hover{
+    background: rgba(240,185,104,0.65);
+    background: -moz-linear-gradient(left, rgba(240,185,104,0.65) 0%, rgba(250,224,185,0.6) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(240,185,104,0.65)), color-stop(100%, rgba(250,224,185,0.6)));
+    background: -webkit-linear-gradient(left, rgba(240,185,104,0.65) 0%, rgba(250,224,185,0.6) 100%);
+    background: -o-linear-gradient(left, rgba(240,185,104,0.65) 0%, rgba(250,224,185,0.6) 100%);
+    background: -ms-linear-gradient(left, rgba(240,185,104,0.65) 0%, rgba(250,224,185,0.6) 100%);
+    background: linear-gradient(to right, rgba(240,185,104,0.65) 0%, rgba(250,224,185,0.6) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b968', endColorstr='#fae0b9', GradientType=1 );
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 1px solid #d9940b;
+}*/
 
 .home .noticias hr{
     margin: 0.5em;
 }
 
 
-/***  depoimntos dos clientes - DESTAQUE *******/
+/***  Depoimntos dos clientes - DESTAQUE *******/
 
 .home .depoimentos .span6 h1{
-    font-size: 1.3em;
+    font-size: 1.7em;
     line-height: normal;
 } 
 
