@@ -14,12 +14,13 @@ class Inicio extends CI_Controller {
 
     public function index() {
 
-        set_tema('CSSpagina', '', FALSE);
-        set_tema('JSpagina', '', FALSE);
 
+        set_tema('CSSpagina', load_css(array('jcarousel.responsive')), FALSE); //Carrocel de imagens página home
+        set_tema('JSpagina', load_js(array('jquery.jcarousel.min', 'jcarousel.responsive')), FALSE); //Carrocel de imagens página home
+        set_tema('JSpagina', load_js(array('funcoes_slideShowHorizontal'), 'js/funcoes-PG-Inicial'), FALSE); //Carrocel de imagens horizotal
 
         set_tema('header', load_modulo('header', '', 'site/includes'));
-        set_tema('paginas', load_modulo('home_view', '','site/pg/home'));
+        set_tema('paginas', load_modulo('home_view', '', 'site/pg/home'));
         set_tema('footer', load_modulo('footer', '', 'site/includes'));
 
         load_template();

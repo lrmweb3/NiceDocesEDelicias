@@ -11,7 +11,7 @@ class RE_Sistema {
 
     public function __construct() {
         $this->CI = &get_instance();
-        $this->CI->load->helper('site','apoio');
+        $this->CI->load->helper('site', 'apoio');
     }
 
     public function enviar_email($para, $assunto, $mensagem, $formato = 'html') {
