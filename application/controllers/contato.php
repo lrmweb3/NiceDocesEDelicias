@@ -26,7 +26,7 @@ class Contato extends CI_Controller {
             $tel = $this->input->post('tel', TRUE);
             $empresa = $this->input->post('empresa', TRUE);
             $mensagem = $this->input->post('mensagem', TRUE);
-            
+
             //$redirect = $this->input->post('redirect', TRUE);
             //if ($this->usuarios->do_login($usuario, $senha) == TRUE) {
 //                $query = $this->usuarios->get_bylogin($usuario)->row();
@@ -59,7 +59,7 @@ class Contato extends CI_Controller {
 //                    set_msg('errologin', 'Erro desconhecido, contate o desenvolvedor', 'erro');
 //                endif;
 //                redirect('usuarios/login');
-     //       }
+            //       }
         }
 
 
@@ -73,4 +73,13 @@ class Contato extends CI_Controller {
         load_template();
     }
 
+    /*     * *****************************************************
+     *  PAINEL ADMINISTRATIVO  ***********************************
+     * ********************************************************** */
+    
+    
+    
+    
+    
+    
 }

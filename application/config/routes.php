@@ -44,6 +44,10 @@ if (!defined('BASEPATH'))
 $route['default_controller'] = "inicio";
 $route['404_override'] = 'Error';
 
+//
+$route['(:any)/(:any)'] = "produtos/detalhes/$1/$2";
+
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
