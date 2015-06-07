@@ -29,7 +29,7 @@
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Páginas <b class="caret"></b></a>
                             <ul class="dropdown-menu">
-                                <li><a href="<?php echo base_url("painel/paginaInicial"); ?>"> <span class="i-user"></span> Inicial</a></li>
+                                <li><a href="<?php echo base_url("painel/pgInicial"); ?>"> <span class="i-user"></span> Inicial</a></li>
 
                                 <li class="divider"></li>
                                 <li><a href="#">Fazer uma pergunta ao administrador</a></li>
