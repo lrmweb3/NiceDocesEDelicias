@@ -16,11 +16,18 @@ function init_painel() {
     $CI->load->library(array('sistema', 'form_validation'));
     $CI->load->helper(array('form', 'url', 'array', 'text'));
 
+    //CSS e JS Global
+    set_tema('CSSglobal', load_css(array('bootstrap.min', 'bootstrap-responsive.min'), 'css/painel'), FALSE);
+    set_tema('CSSglobal', load_css(array('style'), 'css/painel'), FALSE); //Este arquivo não deve sair desta posição
+
+    set_tema('JSglobal', load_js(array('jquery'), 'js/painel'), FALSE); //Este arquivo não deve sair desta posição
+    set_tema('JSglobal', load_js(array('bootstrap.min', 'modernizr.custom.17475'), 'js/painel'), FALSE); //Este arquivo não deve sair desta posição
+
+
     set_tema('titulo_padrao', 'Painel ADM');
     set_tema('titulo', 'Pinel Administrativo');
-    set_tema('conteudo', '<p class="alert-box">Bem vido ao Painel administrativo do site</p>');
-    set_tema('rodape', '<p>&copy; 2015 | Todos os direitos reservados para <strong><a href="http://www.nisedocesedelicias.com.br" alt="Conheça a Movimento Web">Movimento Web</a></strong>');
+
+
+
     set_tema('template', 'painel_view');
-    set_tema('headerinc', load_css(array('foundation.min', 'app')), FALSE);
-    set_tema('headerinc', load_js(array('foundation.min', 'app')), FALSE);
 }
