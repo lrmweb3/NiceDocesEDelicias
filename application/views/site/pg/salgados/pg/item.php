@@ -53,8 +53,51 @@
                             depois divoltis porris, paradis. Paisis, filhis, 
                             espiritis santis. Mé faiz elementum.
                         </p>
-                        <a href="" class="btn btn-primary btn-mini">Indicar a um amigo</a>
+                        <a href="" class="btn btn-primary btn-mini" data-toggle="modal" data-target="#myModal">Indicar a um amigo</a>
                         <a href="" class="btn btn-warning btn-mini">Comentar</a>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Indique um Amigo</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Form do Modal -->
+                                    <form action="" class="form-horizontal">
+                                        <div class="control-group">
+                                            <label class="control-label" for="inputNome">Nome:</label>
+                                            <div class="controls">
+                                                <input type="text" id="inputNome" placeholder="Seu Nome">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label" for="inputEmail">Email:</label>
+                                            <div class="controls">
+                                                <input type="text" id="inputEmail" placeholder="Email do seu Amigo">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label" for="inputDetalhe">Detalhe:</label>
+                                            <div class="controls">
+                                                <textarea id="inputDetalhe" rows="4" cols="20">
+                                                </textarea>                                        
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Enviar</button>
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
 
                 </article>
