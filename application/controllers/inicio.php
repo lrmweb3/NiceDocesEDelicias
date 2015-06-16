@@ -46,14 +46,14 @@ class Inicio extends CI_Controller {
      * *****  FUNÇÕES PAINEL ADMINISTRATIVO  ************* 
      * *****************************************     */
 
-    public function pagina_inicial() {
+    public function painel_pagina_inicial() {
         $this->load->helper('painel');
         init_painel();
         set_tema('JSpagina', '');
         set_tema('CSSpagina', '');
 
         set_tema('header', load_modulo('header', '', 'painel/includes'));
-        set_tema('paginas', load_modulo('pgInicial_view', 'lista', 'painel/pg/inicial'));
+        set_tema('paginas', load_modulo('pgInicial_view', 'novoSlide', 'painel/pg/inicial'));
         set_tema('footer', load_modulo('footer', '', 'painel/includes'));
 
         load_template();
